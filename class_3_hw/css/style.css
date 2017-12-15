@@ -1,13 +1,57 @@
+/*-
+Design Guidelines:
+General Font: Lato - (Look up google fonts and try to integrate this font into the page. If not stick with default font usage but note it will not look exactly like the design Comp)
+
+Body Text Size: 18px
+Body Text Color: #444
+Body Line Height: 1.5
+Body Border Color: #DDD
+
+Link Color: #D00
+Link Hover Color: #A00 (Research transition if you want to see a more subtle effect on hover)
+
+h1 size: 54px
+h2 size: 36px
+h2 color: black
+h2 link hover color: #D00
+h3 size: 36px
+h3 color: #CCC
+
+More text - font-weight: bold
+
+Header Subtitle: Color #888, font-size: 27px;
+
+Navigation: background: black, color: white, hover background: #900
+
+*/
+
+header {
+    color: #888;
+    font-size: 27px;
+}
+
 
 body{
     background-color: white;
-    font-family: arial;
+    font-family: lato;
+    text-size: 10px;
+    color: #444;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-family: arial;
+    text-size: 54px;
+}
+
+h2 {
+    text-size: 36px;
+    color: black;
+}
+
+h3 {
+    text-size: 36px;
+    color: #CCC;
 }
 
 .date{
@@ -16,6 +60,7 @@ h1 {
 
 header, footer{
 	background-color: white;
+	font-family: lato;
 	color: black;
 	padding: 1rem;
 }
@@ -26,24 +71,37 @@ header, footer{
 }
 
 .hori-menubar {
-    background-color: black;
-    color:white;
-    width: 100%;
-    margin: 0px 0px 30px 0px;
+    width: 16%;
+    text-align: center;
 }
 
+.topnav{
+    margin: 0px 0px 30px 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    width: 100%;
+    padding: .5rem;
+}
 .blog{
-	width: 70%;
+	width: 65%;
 	background-color: white;
     padding: .5rem;
 }
 
 .rightside{
-	width: 30%;
+	width: 35%;
 	background-color: white;
-    padding: .5rem;
+    padding: 0.5rem;
+    flex-basis: auto;
 }
 
 #blogimage{
     width:100%;
+}
+
+
+a.hover {
+    color: #D00;
 }
