@@ -101,7 +101,11 @@ header, footer{
     width:100%;
 }
 
-
-a.hover {
+a {
     color: #D00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A00;
 }
