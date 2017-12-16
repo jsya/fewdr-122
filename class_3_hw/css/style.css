@@ -76,6 +76,7 @@ header, footer{
 }
 
 .topnav{
+    justify-content: space-between;
     margin: 0px 0px 30px 0px;
     background-color: black;
     display: flex;
