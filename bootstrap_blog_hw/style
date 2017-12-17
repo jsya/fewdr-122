@@ -1,0 +1,14 @@
+
+
+.blog{
+	width: 65%;
+	background-color: white;
+    padding: .5rem;
+}
+
+.rightside{
+	width: 35%;
+	background-color: white;
+    padding: 0.5rem;
+    flex-basis: auto;
+}
