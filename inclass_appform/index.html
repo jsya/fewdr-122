@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+	
+		<title>Blank Template</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<header>
+			</header> 	
+
+			<form action="">
+				<h1 align="center">Send us a Message</h1>
+				<h1 align="center">We usually respond within 1 business day<h1>
+
+					<h2>General Info</h2>
+					<h3>Name *</h3>
+					<input class="text-input" id="fullname" type="text" placeholder="John Smith">
+
+					<h3>Email *</h3>
+					<input class="text-input" id="email" type="text" placeholder="name@mydomain.com">
+
+					<h3>Company *</h3>
+					<input class="text-input" id="company" type="text" placeholder="Acme Inc.">
+
+					<h3>How did you hear about us?</h3>
+					<input class="text-input" id="hear" type="text" placeholder="Event">
+
+   			 <br>
+			<!---Radio Buttons--->
+		<h3>What would you like to discuss?</h3>
+
+				<input id="radio_hire" type="radio" name="discuss" value="hire">
+				<label for="radio_hire">Hiring Philosophic</label>
+			<br>
+			<input id="radio_join" type="radio" name="discuss" value="join">
+			<label for="radio_join">Joining the Philosophic team</label>
+			<br>
+			<input id="radio_other" type="radio" name="discuss" value="other">
+			<label for="radio_other">Other</label>
+
+		<h2>Proejct Info</h2>
+
+   <!---Checkbox--->
+				<h3>Which of our offerings interest you?</h3>
+				<input id="email_agree" type="checkbox"><label for="email_agree">Lean Branding</label>
+				<br><input id="email_agree" type="checkbox"><label for="email_agree">4 Week MVP</label>
+				<br><input id="email_agree" type="checkbox"><label for="email_agree">Product Team</label>
+				<br><input id="email_agree" type="checkbox"><label for="email_agree">Design Sprint</label>
+				<br><input id="email_agree" type="checkbox"><label for="email_agree">Other</label>
+
+
+   <!---Text Areas--->
+
+			<h3>What is the problem you are trying to solve?</h3>
+					<textarea placeholder="Comment"></textarea>
+
+				<h3>What do you hope our engagement will accomplish?</h3>
+					<textarea placeholder="Comment"></textarea>
+
+
+					<!---Radio Buttons--->
+			<h3>What is your budget range?</h3>
+				<ul class="unstyled">
+
+					<li>
+						<input id="radio1" type="radio" name="budget" value="less40">
+						<label for="radio1">less than $40k</label>
+					</li>
+					<li>
+						<input id="radio2" type="radio" name="budget" value="40-100">
+						<label for="radio2">$40k-$100k</label>
+					</li>
+					<li>
+						<input id="radio3" type="radio" name="budget" value="100-250">
+						<label for="radio3">$100k-$250k</label>
+					</li>
+
+					<li>
+						<input id="radio4" type="radio" name="budget" value="250-500">
+						<label for="radio4">$250k-$500k</label>
+					</li>
+
+					<li>
+						<input id="radio5" type="radio" name="budget" value="500+">
+						<label for="radio5">$500k+</label>
+					</li>
+				</ul>
+
+					<button>Submit</button>
+
+			</form>
+
+			<footer>
+			</footer>
+
+		</div><!-- #container --> 
+	</body>
+</html>

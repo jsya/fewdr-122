@@ -24,6 +24,7 @@ header {
 
 
 body {
+    max width: 900px;
     font-family: Times;
     background-color: light gray;
 }
@@ -56,7 +57,6 @@ a {
 }
 
 .blog {
-	width: 65%;
 	background-color: white;
     padding: .5rem;
 
@@ -69,7 +69,6 @@ a {
 }
 
 .rightside {
-	width: 25%;
 	background-color: white;
     padding: 0.5rem;
     flex-basis: auto;
