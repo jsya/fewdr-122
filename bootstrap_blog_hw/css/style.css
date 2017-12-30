@@ -1,6 +1,46 @@
+header {
+    background-color: #007bff;
+    margin: 0;
+
+}
+
+.topnav{
+    background-color: #007bff;
+    width: 100%;
+
+}
+
+.nav-pills{
+    background-color: #007bff;
+}
+
+.nav-item {
+     background-color: #007bff;
+}
+
+.nav-link{
+
+}
+
+
 body {
     font-family: Times;
+    background-color: light gray;
 }
+
+h1{
+    font-family: Helvetica;
+}
+
+h2{
+    font-family: Helvetica;
+}
+
+
+h3{
+   font-family: Helvetica;
+}
+
 
 .date {
     color: gray;
@@ -11,6 +51,10 @@ a {
     text-decoration: none;
 }
 
+.blogtitle{
+    margin-top: 40px;
+}
+
 .blog {
 	width: 65%;
 	background-color: white;
@@ -18,11 +62,14 @@ a {
 
 }
 
+
+
 .entry {
     margin-top: 20px;
 }
+
 .rightside {
-	width: 35%;
+	width: 25%;
 	background-color: white;
     padding: 0.5rem;
     flex-basis: auto;
@@ -34,3 +81,6 @@ a {
     background-color: #cccccc;
 }
 
+li a{
+    display: block;
+}
