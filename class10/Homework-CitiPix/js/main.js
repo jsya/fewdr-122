@@ -14,8 +14,8 @@ $('#submit-btn').on('click', updateCity);
 function updateCity() {
       var ccity = $('#city-type').val();
       //alert(ccity);
-      $('body').addClass('sf');
-      
+      $('body').addClass('nyc');
+
       return ccity;
 }
 
