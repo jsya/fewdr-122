@@ -9,29 +9,21 @@
   //background image will go default
   //Message will appear that there is no match
 
-$('#submit-btn').on('click', updateCity);
+$(document).ready(function() {
 
-function updateCity() {
-      var ccity = $('#city-type').val();
-      //alert(ccity);
-      $('body').addClass('nyc');
+  $('#submit-btn').on('click', updateCity);
 
-      return ccity;
-}
+  function updateCity() {
+        event.preventDefault();
 
+        var ccity = $('#city-type').val();
 
+        //alert(ccity);
+        $('body').removeClass().addClass(ccity);
 
+        return ccity;
 
-/*
-      if (ccity==="nyc") {
-        $('body').addClass("nyc")
-      }
+        event.preventDefault();
+  }
 
-cityselect=  getcityval();
-console.log(cityselect);
-
-if (ccity==="nyc") {
-  $('body').css
-}
-
-*/
+});
